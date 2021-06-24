@@ -23,3 +23,14 @@ footer .smile-icon {
     vertical-align: middle;
     padding-bottom: 2px;
 }
+
+@media only screen and (min-width: 600px) {
+    body {
+        margin: 2em 6em;
+    }
+
+    .hero h1 {
+        padding-top: 2em;
+        font-size: 3em;
+    }
+  }
