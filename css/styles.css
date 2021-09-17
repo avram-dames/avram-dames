@@ -1,6 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 1em;
+    color: #58546C;
+    background-color: #FBFDFF;
+}
+
+.dark-mode {
+    background-color: #1a1919;
+    /* color: rgba(255, 128, 149, 1); */
+    color: #FF8095;
 }
 
 .hero h1 {
@@ -8,6 +16,9 @@ body {
     font-size: 2.2em;
     padding-top: 3em;
     max-width: 30ch;
+    background: linear-gradient(137deg, rgba(254, 148, 127, 1) 0%, rgba(255, 128, 149, 1) 25%, rgba(255, 128, 255, 1) 50%, rgba(191, 128, 255, 1) 75%, rgba(149, 128, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .projects-gallery {
@@ -26,6 +37,38 @@ footer .smile-icon {
 
 li {
     margin: 0.8em 0;
+}
+
+a:link {
+    color: #BF80FF;
+}
+
+a:visited {
+    color: #9580FF;
+}
+
+a:hover {
+    color: #FF80FF;
+}
+
+a:active {
+    color: #FF8095;
+}
+
+.dark-mode a:link {
+    color: #BF80FF;
+}
+
+.dark-mode a:visited {
+    color: #9580FF;
+}
+
+.dark-mode a:hover {
+    color: #FF80FF;
+}
+
+.dark-mode a:active {
+    color: #FF8095;
 }
 
 @media only screen and (min-width: 600px) {

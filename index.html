@@ -14,14 +14,10 @@
     <link rel="stylesheet" href="css/styles.css?v=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=NunitoSans:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
-
-<header>
-    <h1>.avram</h1>
-</header>
 
 <section class="hero">
     <h1>bună, eu sunt Avram și îți pot ajuta afacerea să crească în mediul online.</h1>
@@ -52,6 +48,11 @@
 </footer>
 
 <body>
+    <script>
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add("dark-mode");
+        }
+    </script>
     <script defer data-domain="avram.dev" src="https://plausible.io/js/plausible.js"></script>
 </body>
 
