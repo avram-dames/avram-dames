@@ -2,7 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 1em;
     color: #58546C;
-    background-color: #FFFDFD;
 }
 
 .dark-mode {
@@ -28,10 +27,9 @@ footer {
     padding-top: 3em;
 }
 
-footer .smile-icon {
+footer .mail-icon {
     width: 18px;
     vertical-align: middle;
-    padding-bottom: 2px;
 }
 
 li {
