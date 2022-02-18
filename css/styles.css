@@ -12,7 +12,7 @@ body {
 .hero h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 2.2em;
-    padding-top: 2em;
+    padding-top: 1em;
     max-width: 30ch;
     background: linear-gradient(137deg, rgba(254, 148, 127, 1) 0%, rgba(255, 128, 149, 1) 25%, rgba(255, 128, 255, 1) 50%, rgba(191, 128, 255, 1) 75%, rgba(149, 128, 255, 1) 100%);
     -webkit-background-clip: text;
@@ -20,16 +20,21 @@ body {
 }
 
 .projects-gallery {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
 footer {
-    padding-top: 3em;
+    padding-top: 2em;
 }
 
-footer .mail-icon {
+footer .footer-icon {
     width: 18px;
     vertical-align: middle;
+}
+
+footer p {
+    line-height: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 li {
