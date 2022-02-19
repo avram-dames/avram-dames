@@ -1,7 +1,17 @@
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 1em;
     color: #58546C;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 .dark-mode {
@@ -9,7 +19,7 @@ body {
     color: #FF8095;
 }
 
-.hero h1 {
+header h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 2.2em;
     padding-top: 1em;
@@ -23,19 +33,29 @@ body {
     padding-top: 2em;
 }
 
-footer {
+.contact {
     padding-top: 2em;
 }
 
-footer .footer-icon {
+.contact-icon {
     width: 18px;
     vertical-align: middle;
 }
 
-footer p {
+
+.contact p {
     line-height: 0.2em;
     margin-bottom: 0.2em;
 }
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: small;
+}
+
 
 li {
     margin: 0.8em 0;
@@ -75,9 +95,9 @@ a:active {
 
 @media only screen and (min-width: 600px) {
     body {
-        margin: 2em 6em;
+        margin: 0 6em;
     }
-    .hero h1 {
+    header h1 {
         font-size: 3em;
     }
     li {
