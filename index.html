@@ -1,89 +1,90 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avram Dameș</title>
-    <meta name="description"
-        content="Web Developer - Avram Dameș Persoană Fizică Autorizată în Aiud, Județul Alba.">
-    <meta name="author" content="Avram Dameș">
-
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
-
-    <link rel="stylesheet" href="styles.css?v=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=NunitoSans:wght@700&family=Poppins:wght@500&display=swap"
-        rel="stylesheet">
-</head>
-
-<header>
-    <h1>Welcome to my page. It's weird and it's changing all the time. Hope you like it.</h1>
-</header>
-
-<div class="content">
-    <section class="projects-gallery">
-        <h2>Projects</h2>
-        <p>
-        <ul>
-            <li><a href="https://drtdentist.ro/">Dental clinic DRT Dentist Aiud</a> 🦷</li>
-        </ul>
-        </p>
-    </section>
-
-    <section class="contact">
-
-        <p>
-            <svg class="contact-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                </path>
-            </svg>
-            <a href="mailto:avram.dames@gmail.com">
-                avram.dames@gmail.com
-            </a>
-        </p>
-
-        <p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-            </svg>
-            <a href="https://github.com/avram-dames" target="_">github.com/avram-dames</a>
-        </p>
-
-        <p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="contact-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            <a href="https://read.cv/avram" target="_">read.cv/avram</a>
-        </p>
-
-
-    </section>
-</div>
-
-<footer>
-    <p>
-        Avram Mircea Dameș PFA | CUI 45511145
-    </p>
-</footer>
-
-<body>
-    <script>
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add("dark-mode");
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0 1.25rem;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
         }
-    </script>
-</body>
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-grow: 1;
+            max-width: 800px;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        p {
+            line-height: 1.5;
+        }
+        ul {
+            padding-left: 1.25rem;
+        }
+        ul li {
+            margin-bottom: .5rem;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .contact {
+            display: flex;
+            justify-content: space-between;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #121212;
+                color: #ffffff;
+            }
+            a {
+                color: #82aaff;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <section>
+            <h1>Hello 👋</h1>
+            <p>My name is Avram, and I am a web developer based in Aiud, Romania. I began my career as a data analyst and transitioned to data engineering. After a hiatus during the pandemic, I moved into web development. I have had the opportunity to live and work in several countries, including the USA, Belgium, and Germany. Now, I am back in my hometown, Aiud.</p>
+            <p>I currently work full-time for a UK-based company, so I am not available for additional work at the moment. However, I am always open to connecting and discussing future opportunities.</p>
+            <p>Have a nice day,<br>Avram</p>
+        </section>
+        <section class="contact">
+            <div>
+                <a href= "mailto: work@avram.ds">work@avram.ds</a>
+            </div>
+            <div>
+                <a href="https://read.cv/avram" target="_blank">Resume</a>
+                <a href="https://github.com/avram-dames" target="_blank">Github</a>
+            </div>
+        </section>
+    </article>
 
+    <footer>    
+        Avram Mircea Dameș PFA | CUI 45511145
+    </footer>
+</body>
 </html>
